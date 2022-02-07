@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgb(233, 233, 233);
+    line-height: 1em;
+    padding: 12px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    font-weight: 500;
+    line-height: 2em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    border: 1px solid rgb(190, 186, 186);
+    margin: 2px;
+    font-size: 20px;
+}
+
+.access{
+    background-color: #f2f2f2;
+    border: 1px solid rgb(247, 245, 245);
+}
+
+input[type="submit"]{
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(190, 186, 186);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
